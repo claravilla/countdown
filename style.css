@@ -1,18 +1,20 @@
 
   body {
-      background-color: rgb(193, 235, 221);
+      background-color: rgb(235, 230, 211);
       font-family: Arial, Helvetica, sans-serif;
       margin: 20px;
   }
   
   h1 {
-      color: rgb(1, 19, 99);
+      color: rgb(28, 103, 88);
       font-weight: 400;
       font-size: 2rem;
+      margin-left:10px
   }
   
   img {
     width:150px;
+    border-radius: 5px;
   }
 
   #grid {
@@ -25,7 +27,7 @@
   .card-container {
     position: relative;
     margin: 10px;
-    /* border: 2px solid rgb(83, 83, 83) */
+    border-radius: 5px;
   }
   
   .card {
@@ -50,14 +52,15 @@
     align-items: center;
     color: white;
     font-size: 50px;
+    border-radius: 5px;
   }
 
  .grey {
   background-color: grey;
  }
 
- .red {
-  background-color: rgb(5, 56, 5);
+ .green {
+  background-color: rgb(61, 131, 97);
  }
 
   .hidden {
