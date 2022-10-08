@@ -157,9 +157,8 @@ window.addEventListener('load', (event) =>{
         day = date.getDate();
     };
 
-   // const today = +`${month}${day}`;
+    const today = +`${month}${day}`;
 
-    const today = 100000
     let html ='';
 
     cards.forEach((eachCard)=>{
